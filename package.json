@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "poi src/index.js",
+    "build": "poi build src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +18,8 @@
   },
   "devDependencies": {
     "babel-plugin-react-require": "^3.0.0",
-    "babel-preset-react-app": "^3.1.0"
+    "babel-preset-react-app": "^3.1.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
   }
 }
